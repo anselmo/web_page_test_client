@@ -26,14 +26,13 @@ __(WIP) FRONT END PERFORMANCE MONITOR - THROUGHT WEBPAGETEST__
 ###Status
 - WIP __Unstable (i mean unstable, don't read the rest)__
 - Boostrap done, but basically a lot to do.
-- Web Test Agents - collect orchestrated and colleting data.
-- Data persistence in file for future reference
-- Data persistence in Redis for real-time use.
+- Web Test Agents - orchestrates and collets data.
+- Data persistence in disk for future reference.
+- Data persistence in redis, normalised for real-time use.
 - Basic Web App.
 - Basic Dashboard.
 - PUB/SUB between agents manager and web-app
 - WEB-RTC between web-app and client dashboard
-
 
 ###Reference
 - www.webpagetest.org
