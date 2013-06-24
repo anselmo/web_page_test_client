@@ -14,14 +14,19 @@ __(WIP) FRONT END PERFORMANCE MONITOR - THROUGHT WEBPAGETEST__
 ``` bash
   ./npm install
 ```
-- start redis-server
+- Start redis-server
 ``` bash
   ./redis-server config/redis.conf
 ```
-- start web app
+- Start web app
 ``` bash
   ./strata -p 3000 app.js
 ```
+- Running tests
+``` bash
+  ./bin/test
+```
+
 
 ###Status
 - WIP __Unstable (i mean unstable, don't read the rest)__
@@ -33,6 +38,7 @@ __(WIP) FRONT END PERFORMANCE MONITOR - THROUGHT WEBPAGETEST__
 - Basic Dashboard.
 - PUB/SUB between agents manager and web-app
 - WEB-RTC between web-app and client dashboard
+
 
 ###Reference
 - www.webpagetest.org
