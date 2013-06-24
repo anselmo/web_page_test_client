@@ -29,7 +29,7 @@ __(WIP) FRONT END PERFORMANCE MONITOR - THROUGHT WEBPAGETEST__
 
 
 ###Status
-- WIP __Unstable (i mean unstable, don't read the rest)__
+- WIP __Unstable (I mean not ready)__
 - Boostrap done, but basically a lot to do.
 - Web Test Agents - orchestrates and collets data.
 - Data persistence in disk for future reference.
