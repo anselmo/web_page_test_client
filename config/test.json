@@ -7,6 +7,6 @@
   "CHECK_INTERVAL": 2000, 
   "CHECK_MAX_HITS": 10,
   "LOG" : true,
-  "OUTPUT_DIR": "/Users/dasilaw6/code/dr_teeth/results/test" 
+  "OUTPUT_DIR": "/code/dr_teeth/results/test" 
 }
 
