@@ -1,0 +1,162 @@
+@import 'reset'
+@import 'common/grid'
+@import 'common/type'
+@import 'common/state'
+@import 'common/position'
+@import 'variables/theme'
+
+body
+  background gray
+  color #fff
+  font-family Arial
+
+h1
+  font-size: 32px
+  line-height: 32px
+  padding: 0
+  @extend .bold
+  @extend .uppercase  
+
+h3
+  font-size: 10px
+  line-height: 24px
+  @extend .bold
+  @extend .uppercase  
+  color type_color_sub
+
+.wrapper
+  position: absolute
+  top: 0
+  left 0
+  right: 0
+  bottom: 0
+
+.primary-nav
+  @extend .vertical-column
+  @extend .float-left
+  @extend .grid-1
+  background-color global_menu
+  padding 10px
+
+.global-menu-item
+  color #fff
+  text-decoration none
+  text-align center
+  display block    
+  width 40px
+  height 40px
+  line-height: 40px
+  border 1px solid rgba(255,255,255,0.2)
+
+.results-container
+  @extend .float-left
+  @extend .vertical-column
+
+.time-column
+  @extend .vertical-column
+  @extend .float-left
+  @extend .grid-3
+  background-color secondary_menu
+
+.results-wrapper
+  @extend .vertical-column
+  @extend .float-left
+  position absolute
+  top: 0
+  right 0
+  left 240px
+  background-color #fff
+  bottom 0
+  overflow hidden
+  color red
+
+.secondary-nav
+  width 100%
+  height 45px
+  background: rgba(0,0,0,0.05)
+  border-bottom 1px solid rgba(0,0,0,0.2)
+  box-shadow 0 2px 2px -1px rgba(0, 0, 0, 0.1)
+  -webkit-box-shadow 0 2px 5px -1px rgba(0, 0, 0, .2)
+
+
+.results
+  height: 100%
+  overflow-y: scroll
+
+.result
+  padding: 20px
+  height: 120px
+  overflow: hidden
+  width: 100%
+  border-bottom: 1px solid rgba(0,0,0,0.1)
+
+.result-title
+  color type_color
+  @extend .float-left
+  @extend .grid-35
+
+// -----------------------------------------  
+//
+// State
+//
+// -----------------------------------------  
+
+.good
+  color good
+.good1
+  color good
+.warning
+  color warning
+.warning1
+  color warning1
+.regular
+  color regular
+.regular1    
+  color regular
+    
+
+
+// -----------------------------------------  
+//
+// KPI Block
+//
+// -----------------------------------------  
+
+.relative
+  color good
+  position relative
+
+.no-padding
+  padding 0   
+
+.kpi-group
+  @extend .relative
+  @extend .float-left
+  width: 150px
+  margin-right: 10px  
+  color regular
+
+.kpi-title
+  font-size: 11px
+  line-height: 18px
+  @extend .bold
+  @extend .uppercase  
+  color type_color_sub
+
+.kpi-value
+  font-size 36px
+  line-height 1em
+  font-weight 800
+  @extend .float-left
+  @extend .no-padding  
+
+.kpi-unit
+  display table-cell
+  vertical-align bottom
+  font-size 12px
+  padding 0 0 0 2px
+  height: 31px
+
+.kpi-plot-group
+  @extend .clear
+  width 100%

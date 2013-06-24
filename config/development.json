@@ -1,0 +1,15 @@
+{
+  "URL_RUN_TEST": "http://www.webpagetest.org/runtest.php",
+  "URL_CHECK_STATE": "http://www.webpagetest.org/testStatus.php",
+  "URL_GET_RESPONSE": "http://www.webpagetest.org/xmlResult/{{test_id}}/",
+  "WEB_PAGE_TEST_API_KEY": "<<WEBPAGE-TEST-KEY>>",
+  "REQ_TIMEOUT": 20000,                      
+  "CHECK_INTERVAL": 30000, 
+  "CHECK_MAX_HITS": 10,
+  "LOG" : true,
+  "LOG_PATH": "code/dr_teeth/tmp",
+  "LOG_FILENAME": "web_test",
+  "OUTPUT_DIR": "code/dr_teeth/results" 
+}
+
+

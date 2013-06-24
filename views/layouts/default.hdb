@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset='utf-8'>
+    <meta name='description' content='front end metrics from lonely planet' />
+    <title>Dr Teeth</title>
+    <link rel='icon' type='image/x-icon' href='/favicon.png' />
+    <link href='/style/base.css' media='screen' rel='stylesheet' type='text/css' />
+    <script>
+      var curl = {
+        paths: {
+          domready:      'js/vendor/ready.min',
+          qwery:         'js/vendor/qwery.min',
+          bean:          'js/vendor/bean.min',
+          bonzo:         'js/vendor/bonzo.min',
+          handlebars:    'js/vendor/handlebars',
+          reqwest:       'js/vendor/reqwest.min'
+        }
+      }
+    </script>  
+  </head>
+  <body class=''>
+    <div class='wrapper'>
+      {{{content}}}
+    </div>
+  </body>
+  <script src='/js/vendor/curl.js'></script>
+  <script>
+    curl(['domready', 'js/lib/dr_teeth'],function(domready,drTeeth){
+      domready(function () {
+        var app = new drTeeth({});
+        app.start();
+      })
+    });
+  </script>  
+</html>  
+
+

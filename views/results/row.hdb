@@ -1,0 +1,33 @@
+<article class='result'>
+ 
+  <div class='result-title'>
+    <h1>
+      Hotel List
+    </h1>
+    <h3>
+      Vietnam/ho-chi-minh-city
+    </h3>
+  </div>
+
+  <div class='kpi-group'>
+    <div class=kpi-result>
+      <h4 class='kpi-title'>
+        TTFB
+      </h4>
+      <div class='good'>
+        <span class='kpi-value'>
+          0.712
+        </span>
+        <span class='kpi-unit'>
+          sec
+        </span>
+        <div class='kpi-plot-group js-plot-chart' id='a1'>
+          curve here
+        </div>
+      </div>
+    </div>
+  </div>
+
+</article>
+
+

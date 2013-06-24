@@ -1,0 +1,4 @@
+<div class='{{style}}'>
+  <a href='{{uri}}'>{{title}}</a>
+  <img src='{{src}}'>
+</div>

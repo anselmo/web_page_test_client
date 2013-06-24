@@ -1,0 +1,12 @@
+{
+  "URL_RUN_TEST": "http://127.0.0.1:6767/runtest",
+  "URL_CHECK_STATE": "http://localhost:6767/testStatus",
+  "URL_GET_RESPONSE": "http://localhost:6767/xmlResult/{{test_id}}/",
+  "WEB_PAGE_TEST_API_KEY": "YOURKEYSECRET",
+  "REQ_TIMEOUT": 5000,                      
+  "CHECK_INTERVAL": 2000, 
+  "CHECK_MAX_HITS": 10,
+  "LOG" : true,
+  "OUTPUT_DIR": "/Users/dasilaw6/code/dr_teeth/results/test" 
+}
+

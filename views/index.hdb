@@ -1,0 +1,20 @@
+<div class='primary-nav'>
+  <nav class='global-menu'>
+    <a class='global-menu-item' href='/'>
+      A
+    </a>
+  </nav>
+</div>
+<div class='results-container'>
+  </div>
+  <div class='time-column'>
+  </div>
+  <div class='results-wrapper'>
+    <div class='secondary-nav'>
+ 
+    </div>
+    <div class='results'>
+
+    </div>
+  </div>
+</div>

@@ -1,0 +1,10 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  </head>
+  <body class='other_layout'>
+    {{{content}}}
+  </body>
+</html>  
+
+

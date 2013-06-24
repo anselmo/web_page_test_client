@@ -1,0 +1,13 @@
+#!/usr/bin/env sh
+
+TEST_ARGS=""
+if [ -n "$*" ]; then
+  TEST_ARGS=$*
+  echo $TEST_ARGS
+else
+  TEST_ARGS="test/lib/web_test/*_test.js"
+  echo $TEST_ARGS
+fi
+
+node $TEST_ARGS
+
