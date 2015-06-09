@@ -1,4 +1,4 @@
-# DR TEETH 
+# WEB PAGE TEST CLIENT
 __(WIP) FRONT END PERFORMANCE MONITOR - THROUGHT WEBPAGETEST__
 
 - webpagetest agents, workers, manager and dashboard for a continuous ecosystem monitoring.
